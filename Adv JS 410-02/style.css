@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
 
-.mainconatiner{
+.conatiner{
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,8 +26,11 @@ body{
     background-color: #161e54;
 
 }
+
 .headline h2{
     color: white;
+    box-shadow: 5px 5px 5px black,
+               inset 5px 5px 5px black;
 }
 .content{
     width: 100%;
@@ -50,16 +53,29 @@ body{
 input{
     width: 30%;
     height: 55%;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
 }
 button{
     width: 10%;
     height: 55%;
     background-color: #161e54;
     color: white;
+    font-weight: 800;
+    font-size: 800;
+    box-shadow: 5px 5px 5px #161e54;
+    border-radius: 8px;
+               
 
 
 }
+input:hover{
+    transform: scale(1.1);
+}
 button:hover{
+    transform: scale(1.1);
+}
+h1:hover{
     transform: scale(1.1);
 }
 h2:hover{

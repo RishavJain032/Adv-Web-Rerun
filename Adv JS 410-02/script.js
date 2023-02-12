@@ -11,8 +11,7 @@ console.log("hello")
     console.log()
     var value=word.value
     
-
-    const res= await fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${value}?key=0386bca9-7411-4e24-b36e-18f10f344072`)
+    const res= await fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${value}?key=ccedbaac-fd35-4036-98b0-548da780b909`)
     console.log(res)
      const data = await res.json()
      console.log(data)
